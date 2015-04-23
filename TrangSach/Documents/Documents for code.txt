@@ -1,0 +1,31 @@
+Getting Started with ASP.NET MVC 4
+	1. Adding a Controller:
+		- http://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
+		-
+		Note:
+			- ASP.NET MVC invokes different controller classes (and different action methods within them) depending on the incoming URL. The default URL routing logic used by ASP.NET MVC uses a format like this to determine what code to invoke:
+			/[Controller]/[ActionName]/[Parameters]
+			- The first part of the URL determines the controller class to execute. So /HelloWorld maps to the HelloWorldController class. The second part of the URL determines the action method on the class to execute. So /HelloWorld/Index would cause the Index method of the HelloWorldController class to execute. Notice that we only had to browse to /HelloWorld and the Index method was used by default. This is because a method named Index is the default method that will be called on a controller if one is not explicitly specified.
+			- Browse to http://localhost:xxxx/HelloWorld/Welcome. The Welcome method runs and returns the string "This is the Welcome action method...". The default MVC mapping is /[Controller]/[ActionName]/[Parameters]. For this URL, the controller is HelloWorld and Welcome is the action method. You haven't used the [Parameters] part of the URL yet.
+		Ex: 
+			- Add 1 Controller Category within the name is CategoryController
+			- Write more 1 action/method/view-function inside controller "List"
+			- Parameters: add params like ID, Code, etc..
+			=> link view list products of the category like: /Category/List/ID=10
+	2. Adding a View:
+		- http://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-view
+		-
+		Note: 
+			- View level is inside controller class. That is all actions/methods/view-functions with arguments.
+			- View folder of the project is template or we can understand like that.
+			
+		How-know: We have something like Controller => View => Template. 
+				It's mean 1 request be called, it take on Controller and then, controller call the action/method/view-function of process. when processed, it render and asign data for template to display
+	3. Adding a Model:
+		- http://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-model
+		- 
+		Note: This level working with database and provider data for controller
+		
+	4. Accessing Your Model's Data from a Controller:
+		- http://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc4/accessing-your-models-data-from-a-controller
+		
