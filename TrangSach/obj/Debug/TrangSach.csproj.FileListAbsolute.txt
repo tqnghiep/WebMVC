@@ -1,4 +1,0 @@
-F:\Developing\asp\MVC\WebMVC\TrangSach\bin\TrangSach.dll
-F:\Developing\asp\MVC\WebMVC\TrangSach\bin\TrangSach.pdb
-F:\Developing\asp\MVC\WebMVC\TrangSach\obj\Debug\TrangSach.dll
-F:\Developing\asp\MVC\WebMVC\TrangSach\obj\Debug\TrangSach.pdb
